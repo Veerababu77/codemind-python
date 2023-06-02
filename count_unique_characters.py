@@ -1,12 +1,7 @@
-n=input()
-n=n.lower()
-n=list(n)
-c=0
-for i in range(len(n)):
-    if n[i]==" ":
-        continue
-    s=n.count(n[i])
-    if s==1:
-        #print(n[i])
-        c+=1
-print(c)
+s=input().lower()
+s1=list(s)
+cnt=0
+for i in s1:
+    if s1.count(i)==1 and i!=" ":
+        cnt+=1
+print(cnt)
